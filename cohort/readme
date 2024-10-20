@@ -1,0 +1,32 @@
+# OCR Text Extraction Project
+
+This project uses Tesseract OCR and OpenCV in Python to extract text from images and organize it into a dictionary format.
+
+## Features
+- Image preprocessing (grayscale, blur, thresholding)
+- Text extraction using Tesseract OCR
+- Visualization of processed images
+
+## Technologies
+- Python
+- OpenCV
+- Tesseract-OCR
+- Matplotlib
+- pytesseract
+
+## Installation
+
+1. Install Python (3.x recommended).
+2. Install required libraries:
+   ```bash
+   pip install opencv-python pytesseract matplotlib
+
+Usage
+Place your image (e.g., sample.jpeg) in the project directory.
+Update the Tesseract path in the script if necessary.
+
+Run the script:
+
+---> python main.py
+
+Check the console for extracted text and the output dictionary.
